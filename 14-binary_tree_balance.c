@@ -28,7 +28,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_leaves - difference in height between left and right subtrees
+ * binary_tree_balance - difference in height between left and right subtrees
  * @tree: pointer to the node to measure
  * Return: difference in height
  */
