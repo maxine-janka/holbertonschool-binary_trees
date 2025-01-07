@@ -19,7 +19,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 
 	/*
 	 * otherwise, count number of leaves in left and right
-	 * and return sum 
+	 * and return sum
 	 */
 	left_leaves = binary_tree_leaves(tree->left);
 	right_leaves = binary_tree_leaves(tree->right);

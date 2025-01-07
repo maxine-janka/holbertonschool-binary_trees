@@ -14,7 +14,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (0);
 
 	/*
-	 * height is 1 +  the maximum of: 
+	 * height is 1 +  the maximum of:
 	 * - height of left child
 	 * - height or right child
 	 */
@@ -28,10 +28,9 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_leaves - returns whether a binary tree is perfect
+ * binary_tree_is_perfect - returns whether a binary tree is perfect
  *
- * A node is perfect height of left and right are equal
- * A tree is perfect if all of its subtrees are perfect
+ * A tree is perfect if every node has two children
  *
  * @tree: pointer to the root of tree
  * Return: 1 if tree is perfect else 0
